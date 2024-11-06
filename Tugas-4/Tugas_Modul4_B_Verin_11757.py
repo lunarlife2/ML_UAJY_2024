@@ -48,9 +48,9 @@ if uploaded_file is not None:
     st.dataframe(input_data)
 
     model_path = {
-        "AGG_model" : r'AGG_model.pkl',
-        "KMeans_model" : r'KMeans_model.pkl',
-        "DBSCAN_model" : r'DBSCAN_model.pkl',
+        "AGG_model" : 'AGG_model.pkl',
+        "KMeans_model" : 'KMeans_model.pkl',
+        "DBSCAN_model" : 'DBSCAN_model.pkl',
     }
 
     models = {}
