@@ -47,11 +47,10 @@ if uploaded_file is not None:
     st.markdown("<h1 style='text-align: center;'>Unsupervised Learning - Verin</h1>",unsafe_allow_html=True)
     st.dataframe(input_data)
 
-    model_directory = r'D:\atma\Semester 5\ML\Unsupervised Learning (Praktek)\Tugas4_B_11757'
     model_path = {
-        "AGG_model" : os.path.join(model_directory, r'AGG_model.pkl'),
-        "KMeans_model" : os.path.join(model_directory, r'KMeans_model.pkl'),
-        "DBSCAN_model" : os.path.join(model_directory, r'DBSCAN_model.pkl'),
+        "AGG_model" : 'Tugas-4/AGG_model.pkl',
+        "KMeans_model" : 'Tugas-4/KMeans_model.pkl',
+        "DBSCAN_model" : 'Tugas-4/DBSCAN_model.pkl',
     }
 
     models = {}
